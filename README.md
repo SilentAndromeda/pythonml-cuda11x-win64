@@ -21,3 +21,5 @@ I chose Game Ready Driver v 536.40, NVIDA GPU Computing Toolkit v11.2, and Visua
 ### You should now be able to start developing GPU-accelerated models in Juyter lab! 
 
     $ jupyter lab
+
+Run checkinstallation.ipynb to verify packages are installed properly and the GPU is detected.
