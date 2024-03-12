@@ -18,7 +18,8 @@ dependencies:
   - ipywidgets 
   - joblib  
   - jupyterlab  
-  - keras-core
+  - keras
+  - keras-tuner 
   - matplotlib 
   - nbdime  
   - nltk 
@@ -31,18 +32,16 @@ dependencies:
   - requests  
   - scikit-learn 
   - scipy  
-  - statsmodels  
+  - statsmodels
+  - tensorflow-hub   
   - tqdm  
   - wheel  
   - widgetsnbextension  
   - pip:
     - tensorboard-plugin-profile  
-    - keras-tuner 
     - tensorflow-datasets 
-    - tensorflow-hub 
-    - tensorflow-serving-api-gpu 
     - transformers 
-    - urlextract 
+    - urlextract   
     - google-cloud-aiplatform 
     - google-cloud-storage 
     - google-api-core
