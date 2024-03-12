@@ -1,5 +1,5 @@
 # pythonml-cuda11x-win64
-My custom environment for running local GPU-accelerated TensorFlow, PyTorch, Keras, and Scikit-learn applications based on yml file by A. Geron for [Hands on ML 3](https://github.com/ageron/handson-ml3)
+My custom environment for running local GPU-accelerated TensorFlow, PyTorch, Keras, and Scikit-learn applications on Windows computer. Based on yml file by A. Geron for [Hands on ML 3](https://github.com/ageron/handson-ml3)
 
 I originally ran into issues installing GPU-capable versions of packages to learn TensorFlow and Pytorch due to compatibility issues. I thought I'd share the environment I use on my local machine with 3080 GPU, Win 10, CUDA 11x. The .yml file is based on https://github.com/ageron/handson-ml3/blob/main/environment.yml and has been modified to allow GPU-enabled execution of deep learning models using either TensorFlow or PyTorch. 
 
