@@ -1,0 +1,49 @@
+name: ml-gpu
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python ==3.9.18  # Environment is installed for python 3.9
+  - numpy ==1.23.4   # tensorflow-gpu v2.6 requires specific version of numpy
+  - tensorflow-gpu=2.6.0
+  - pytorch==1.12.1 # Pytorch for CUDA 11.3
+  - torchvision==0.13.1
+  - torchaudio==0.12.1
+  - box2d-py  
+  - ffmpeg  
+  - graphviz  
+  - python-graphviz  
+  - ipython  
+  - ipywidgets 
+  - joblib  
+  - jupyterlab  
+  - keras-core
+  - matplotlib 
+  - nbdime  
+  - nltk 
+  - numexpr 
+  - pandas  
+  - pillow  
+  - pip  
+  - py-xgboost  
+  - pydot 
+  - requests  
+  - scikit-learn 
+  - scipy  
+  - statsmodels  
+  - tqdm  
+  - wheel  
+  - widgetsnbextension  
+  - pip:
+    - tensorboard-plugin-profile  
+    - keras-tuner 
+    - tensorflow-datasets 
+    - tensorflow-hub 
+    - tensorflow-serving-api-gpu 
+    - transformers 
+    - urlextract 
+    - google-cloud-aiplatform 
+    - google-cloud-storage 
+    - google-api-core
+    - gymnasium[classic_control,atari,accept-rom-license]  
